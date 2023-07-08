@@ -92,7 +92,7 @@ class _HomeState extends State<Home> {
                           controller: _controller,
                           decoration: InputDecoration(
                             border: InputBorder.none,
-                            hintText: "Search",
+                            hintText: "Search City",
                           ),
                         ),
                       ),
