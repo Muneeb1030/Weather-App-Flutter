@@ -23,7 +23,7 @@ class _LoadingState extends State<Loading> {
     checkConnection().then((isConnected) {
       if (isConnected) {
         LoadData(City);
-      } else {}
+      }
     });
   }
 

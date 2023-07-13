@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:weatherapp/API Keys/APIKeys.dart';
 import 'package:http/http.dart';
 
 class WeatherInfo {
@@ -72,10 +73,10 @@ class WeatherInfo {
   set location(String location) {
     _location = location;
   }
-  
+
   Future<WeatherInfo> getInfo(String City) async {
     Response response = await get(Uri.parse(
-        "https://api.openweathermap.org/data/2.5/weather?q=$City&appid=0f6264eac8aa1c023fdec21731b1f1d6"));
+        "https://api.openweathermap.org/data/2.5/weather?q=$City&appid=$apiKey"));
     Map data = jsonDecode(response.body);
 
     Map DataRequired = data['main'];
