@@ -93,6 +93,11 @@ class _HomeState extends State<Home> {
                           border: InputBorder.none,
                           hintText: "Search City",
                         ),
+                        onSubmitted: (value) {
+                          if (value.replaceAll(" ", "") != "") {
+                            getWeatherInfo(value);
+                          }
+                        },
                       ),
                     ),
                   ],
