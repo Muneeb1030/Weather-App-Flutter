@@ -5,7 +5,7 @@ Welcome to our Weather Search App! This convenient Flutter application allows yo
 To create a Flutter app similar to ours, follow these steps:
 - Install Flutter by following the official documentation.
 - Set up your development environment for Flutter.
-- Create a new Flutter project using ```flutter create my_expense_manager```.
+- Create a new Flutter project using ```flutter create weather_search_app```.
 - Start coding your app following Flutter's widget-based approach.
 
 ## Features:
