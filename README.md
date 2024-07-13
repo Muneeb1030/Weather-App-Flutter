@@ -14,7 +14,9 @@ To create a Flutter app similar to ours, follow these steps:
 
 ## Concepts Learned:
 **Future and Await**: Learn how to utilize future and await keywords to handle asynchronous operations effectively, ensuring smooth execution of tasks like fetching weather data.
+
 **API Integration**: Understand the process of integrating external APIs to retrieve real-time weather information and provide accurate updates to users.
+
 **Search Methods**: Explore different search methods and techniques implemented within the app to enhance user experience and provide seamless access to weather data.
 
 ## Contributing
